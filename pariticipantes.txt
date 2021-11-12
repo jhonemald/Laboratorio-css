@@ -1,0 +1,14 @@
+jhon Maldonado 
+Isaac Silva
+Balwin Ladino
+CARLOS RODRIGUEZ
+ferney
+Wilmer
+
+tareas:
+estructura html(contenedores, clases)
+fondo de pantalla
+fuente
+imagen
+estilos al texto(titulos, subtitulos)
+

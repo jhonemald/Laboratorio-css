@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Oswald&display=swap');
+
+/* {
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+*/
+
+*{
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  border: 3px solid red;
+  display: flex;
+}
+
+.datos-personales {
+  border: 5px solid blue;
+  /* background-color: rgb(71, 35, 105); */
+  /* background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(123,0,255,1) 36%, rgba(119,4,134,0.19681375968356096) 62%); */
+  background: rgb(23,115,159);
+  background: linear-gradient(0deg, rgb(38, 139, 185) 0%, rgba(69,9,121,1) 35%, rgb(209, 247, 255) 100%);
+  flex-grow: 0;
+  color: white;
+}
+
+.datos-profesionales {
+
+  border: 5px solid green;
+ 
+ background-color: white;
+  flex-grow: 50;
+  padding-bottom: 5%;
+}
+
+.caja {
+  margin: auto;
+  border-top: 2px solid gray;
+  box-shadow: 0 0 20px gray;
+  width: 90%;
+  padding-bottom: 20px;
+
+}
+
+.caja p {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  color: white;
+  text-align: center;
+  left: 17%;
+  font-size: 20px;
+}
+
+.datos-profesionales h2 {
+  margin-left: 5%;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(74, 74, 155);
+  
+}
